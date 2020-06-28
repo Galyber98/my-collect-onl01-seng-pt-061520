@@ -9,6 +9,3 @@ def my_collect(array)
  end
 end
 
-my_collect(caller_locations) do |name|
-  name.split(" ").first
-end
