@@ -2,5 +2,5 @@ def my_collect(array)
   i = 0 
   collection = []
   if block_given?
-    while  
+    while   
 end
