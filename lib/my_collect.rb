@@ -4,4 +4,5 @@ def my_collect(array)
   if block_given?
     while i < collection.length
     collection << yield(array[i])
+    i = i +1 
 end
