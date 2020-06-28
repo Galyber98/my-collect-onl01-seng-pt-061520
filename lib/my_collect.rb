@@ -3,4 +3,5 @@ def my_collect(array)
   collection = []
   if block_given?
     while i < collection.length
+    collection << yield
 end
