@@ -10,4 +10,4 @@ def my_collect(array)
  return collection
 end
 
-my_collect(collection) {|lang| lang.upcase}
+my_collect() {|lang| lang.upcase}
